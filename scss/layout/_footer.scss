@@ -1,0 +1,26 @@
+.container--footer-area {
+    display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 80px;
+}
+
+.footer-area__info-left {
+    padding-left: 16px;
+    align-items: center;
+}
+.footer-area__info-right {
+    padding-right: 25px;
+    align-items: center;
+}
+
+.footer-area__container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+}

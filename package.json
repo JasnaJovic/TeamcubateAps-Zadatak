@@ -1,0 +1,14 @@
+{
+  "name": "zadatak",
+  "version": "1.0.0",
+  "description": "Zadatak - Teamcubate ApS",
+  "main": "index.js",
+  "scripts": {
+  },
+  "author": "Jasna Jovic",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.14",
+    "sass": "^1.35.1"
+  }
+}

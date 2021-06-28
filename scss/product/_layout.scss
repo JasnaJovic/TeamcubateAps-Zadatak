@@ -1,0 +1,251 @@
+.background__gradient {
+  background: rgba(200, 124, 10, 0.664);
+  background: -moz-radial-gradient(at 25% 50%, #eec07bce 0%, rgba(255,255,255,1) 100%);
+  background: -webkit-radial-gradient(at 25% 50%, #eec07bce 0%, rgba(255,255,255,1) 100%);
+  background: radial-gradient(at 25% 50%, #eec07bce 0%, rgba(255,255,255,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eec07bce",endColorstr="#ffffff",GradientType=1);
+  animation:  animateGradient 8s infinite alternate ease; 
+  -webkit-animation:  animateGradient 8s infinite alternate ease;
+}
+
+.product--info-label {
+  position: absolute;
+  top: 15%;
+  right: -20%;
+
+  img {
+      animation: rotateImg 9s infinite linear;
+  }
+
+}
+
+.product--info-options {
+  margin-bottom: 25px;
+}
+.product--info-options-single {
+  padding: 13px 18px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &:hover {
+    background-color: #EDF0FC !important;
+  }
+
+  .select--elements {
+    cursor: pointer;
+    position: relative;
+  }
+  
+  #select--value {
+    background: none;
+    border:none;
+    border-bottom: 1px solid #3343BB;
+    margin-left: 30px;
+    outline: none;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+
+  .sellected--arrow {
+    padding: 0 5px 0 10px;
+    transform: scale(1, 0.6);
+    margin-bottom: 2px;
+  }
+  }
+
+  #select-dropdown {
+    display: none;
+    position: absolute;
+    background-color: #EDF0FC;
+    padding-top: 11px;
+  }
+
+
+
+}
+
+.options-container {
+  display: block;
+  position: relative;
+  padding-left: 32px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.options-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkmark {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(0, -50%);
+  height: 16px;
+  width: 16px;
+  border: 2px solid;
+  border-radius: 50%;
+}
+
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.options-container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.options-container .checkmark:after {
+ 	top: 4px;
+	left: 4px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: #2C346D;
+}
+
+.product--info-buy {
+  display: -webkit-box;
+  display: -webkit-flex; 
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}
+
+.quantity {
+  width: 40%; 
+  margin-right: 16px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #3343BB;
+  border-radius: 6px;
+}
+
+.quantity .input-text.qty {
+width: 35px;
+padding: 0 5px;
+text-align: center;
+background-color: transparent;
+font-size: 20px;
+line-height: 24px;
+font-weight: 700;
+border: none;
+color: #3343BB;
+}
+
+.quantity.buttons_added {
+text-align: left;
+position: relative;
+white-space: nowrap;
+vertical-align: top; 
+}
+
+.quantity.buttons_added input {
+display: inline-block;
+margin: 0;
+vertical-align: top;
+box-shadow: none;
+}
+
+.quantity.buttons_added .minus,
+.quantity.buttons_added .plus {
+  padding: 10px 16px;
+  background: none;
+  cursor: pointer;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #3343BB;
+  border: none;
+}
+
+.quantity.buttons_added .minus {
+border-right: 0; }
+
+.quantity.buttons_added .plus {
+border-left: 0; }
+
+.quantity input::-webkit-outer-spin-button,
+.quantity input::-webkit-inner-spin-button {
+-webkit-appearance: none;
+-moz-appearance: none;
+margin: 0; }
+
+.quantity.buttons_added .minus:focus,
+.quantity.buttons_added .plus:focus {
+  outline: none; 
+}
+
+@keyframes rotateImg {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-359deg);
+  }
+}
+
+@keyframes animateGradient {
+  from {
+    background-size:100% 200%;
+  
+  }
+  50% {
+    background-size:200% 100%;
+  }
+  to {
+    background-size:100% 200%;
+  }
+ }
+
+ @-webkit-keyframes rotateImg {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-359deg);
+  }
+}
+
+@-webkit-keyframes animateGradient {
+  from {
+    background-size:100% 200%;
+  
+  }
+  50% {
+    background-size:200% 100%;
+  }
+  to {
+    background-size:100% 200%;
+  }
+ }

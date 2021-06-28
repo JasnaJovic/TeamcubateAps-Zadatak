@@ -1,0 +1,35 @@
+.container__half {
+   height: calc(95.55555556vw/2);
+}
+
+.container--footer-area {
+   grid-area: container--footer-area;
+}
+
+.container--slider {
+   grid-area: container--slider;
+}
+
+.container--product-info {
+   grid-area: container--product-info;
+   padding: 0 0 0 80px;
+   position: relative;
+   display: flex;
+}
+
+.product--info {
+   height: fit-content;
+   margin: auto 0;
+   position: relative;
+   max-width: 440px;
+}
+
+
+.container {
+   width: 100%;
+   height: fit-content;
+   display: grid;
+   grid-template-columns: 50% 50%;
+   grid-template-areas: 'container--slider container--product-info'
+                        'container--footer-area container--footer-area';
+}

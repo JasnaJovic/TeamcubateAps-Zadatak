@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/style.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script data-require="jquery@3.1.1" data-semver="3.1.1" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="dist/product.min.js"></script>
+    <title>Zadatak - Teamcubate ApS</title>
+</head>
+<body>
+  
+  <div class="container">
+  <div class="container__half container--slider">
+    
+ <div class="swiper-container" id="arrows">
+ <!--Additional required wrapper -->
+    <div class="swiper-wrapper">
+   <!--Slides-->
+  <div class="swiper-slide">
+    <div class="swiper-slide__img" style="background: url('img/pexels-dominika-roseclay-1440.jpg');"></div>
+  </div>
+  <div class="swiper-slide">
+    <div class="swiper-slide__img" style="background: url('img/pexels-fauxels-3-1440.jpg') ;"></div>
+  </div>
+  <div class="swiper-slide">
+    <div class="swiper-slide__img" style="background: url('img/pexels-fauxels-31-1440.jpg') ;"></div>
+  </div>
+  <div class="swiper-slide">
+    <div class="swiper-slide__img" style="background: url('img/pexels-fauxels-318-1440.jpg') ;"></div>
+  </div>
+  <div class="swiper-slide">
+    <div class="swiper-slide__img" style="background: url('img/pexels-fauxels-1440.jpg') ;"></div>
+  </div>
+  <div class="swiper-slide">
+    <div class="swiper-slide__img" style="background: url('img/pexels-fauxels-3184-1440.jpg') ;"></div>
+  </div>
+  <div class="swiper-slide">
+    <div class="swiper-slide__img" style="background: url('img/pexels-fauxels-31844-1440.jpg') ;"></div>
+  </div>
+  <div class="swiper-slide">
+    <div class="swiper-slide__img" style="background: url('img/pexels-photo-318446-1440.png') ;"></div>
+  </div>
+</div>
+<!-- If we need pagination -->
+
+<!-- If we need navigation buttons -->
+<div id="prev__button" class="swiper-button-prev"></div>
+<div id="next__button" class="swiper-button-next"></div>
+
+<!-- If we need scrollbar -->
+  </div>
+</div>
+<div id="product--info" class="container__half container--product-info background__gradient">
+  <div class="product--info">
+  <p class="container--product-top-title">LOREM + LOREM IPSUM</p>
+  <h1 class="container--product-title">Lorem ipsum dolor</h1>
+  <div class="product--info-label">
+    <img class="product--info-label__img" src="img/label-1x.png" alt="">
+  </div>
+  <div class="product--info-reviews">
+    <div class="product--info-reviews-stars">
+    <img src="img/Five-pointed_filled.svg" onerror="this.onerror=null; this.src='img/Five-pointed_filled.png'">
+    <img src="img/Five-pointed_filled.svg" onerror="this.onerror=null; this.src='img/Five-pointed_filled.png'">
+    <img src="img/Five-pointed_filled.svg" onerror="this.onerror=null; this.src='img/Five-pointed_filled.png'">
+    <img src="img/Five-pointed_filled.svg" onerror="this.onerror=null; this.src='img/Five-pointed_filled.png'">
+    <img src="img/Five-pointed.svg" onerror="this.onerror=null; this.src='img/Five-pointed.png'">
+  </div>
+    <p class="product--info-reviews-number">1234 reviews</p>
+  </div>
+  <p class="product--info-desc" id="product--info-desc">An lorem of super-nutrients to promote regular digestion and healthy skin.
+  This nutritious and tasty blend is high in vitamins, minerals, enzymes and antioxidants that can ensure optimal cell function and effective protein and nutrient absorption. </p>
+  
+  <div class="product--info-options">
+  <form action="">
+    <div class="product--info-options-single" style="background-color: #EDF0FC;border-radius: 6px;">
+      <label class="options-container" for="subscribe"><span class="options-price">$44.95</span> - <span class="options-plan">Subscribe & Save 10%</span> every
+        <input type="radio" checked id="subscribe" name="subscribe" value="subscribe">
+        <span class="checkmark"></span>
+      </label>
+   
+  <div class="select--elements">    
+  <div id="select--value">
+    <p id="selected--value">1 month</p>
+    <span class="sellected--arrow">&or;</span>
+  </div>            
+    <div id="select-dropdown">
+      <div class='select--element' data-id="1 month">1 month</div>
+      <div class='select--element' data-id="3 month">3 month</div>
+      <div class='select--element' data-id="6 month">6 month</div>
+    </div>                
+  </div>
+
+  </div>  
+  <div class="product--info-options-single" style="border-radius: 6px;">
+    <label class="options-container" for="one-time"><span class="options-price">$49.95</span> - <span class="options-plan">One-time Purchase</span>
+      <input type="radio" id="one-time" name="subscribe" value="one-time">
+      <span class="checkmark"></span>
+    </label>
+  
+  
+</div>
+</div>
+<div class="product--info-buy">
+  <div class="quantity buttons_added">
+    <input type="button" value="-" class="minus"><input disabled type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
+  </div>
+<input class="add-to-cart" type="submit" value="Add to cart">
+</div> 
+</form>
+  
+ 
+  </div>
+</div>
+
+
+<div id="footer-container" class="container--footer-area">
+
+  <div class="footer-area__container">
+    <img class="footer-area__img" src="img/Elixir Organic6976_1x.png" alt="">
+    <div class="footer-area__info-left">
+      <h3 class="footer-area__title">Superfood Greens</h3>
+      <p class="footer-area__desc">1234 Reviews</p>
+    </div>
+  </div>
+
+  <div class="footer-area__container">
+    <div class="footer-area__info-right">
+      <p class="footer-area__price" >$44.95</p>
+      <p class="footer-area__option" >Subscribe & Save 10%</p>
+    </div>
+    <button class="add-to-cart">Add to cart</button>
+  </div>
+
+</div>
+
+
+</div>
+</body>
+<script>
+  const swiper = new Swiper('.swiper-container', {
+    // Optional parameters
+    direction: 'horizontal',
+    loop: true,
+    effect: 'fade',
+    preloadImages: false,
+    autoHeight: true,
+    
+  
+    // If we need pagination
+  
+  
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  
+    // And if we need scrollbar
+    scrollbar: {
+      el: '.swiper-scrollbar',
+    },
+  });
+</script>
+<script src="dist/swiper.min.js"></script>
+</html>

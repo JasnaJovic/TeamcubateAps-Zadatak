@@ -1,0 +1,92 @@
+html {
+    font-size: 62.5%;
+}
+
+.container--product-top-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 2rem;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.container--product-title {
+    font-size: 6.2rem;
+    font-weight: 700;
+    line-height: 6.4rem;
+    margin-bottom: 8px;
+}
+
+.product--info-reviews-number {
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+}
+
+.product--info-desc {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 2.2rem;
+    margin-bottom: 32px;
+}
+
+.product--info-options {
+    label, option {
+        font-size: 1.4rem;
+        font-weight: 700;
+        line-height: 2.4rem;
+        letter-spacing: 0.5px;
+    }
+    select {
+        color: #2C346D;
+    }  
+}
+
+.add-to-cart {
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+    color: white;
+    background-color: #3343BB;
+    padding: 1.1rem 5.5rem;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 0.3px;
+}
+
+.footer-area__title {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.8rem;
+}
+
+.footer-area__desc {
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.footer-area__option {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.footer-area__price {
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 2rem;
+}
+
+#selected--value {
+    font-size: 1.4rem;
+    font-weight: 700;
+    letter-spacing: -0.6px;
+    line-height: 2.4rem;
+}
+
+.select--element {
+    font-size: 16px;
+    line-height: 3.2rem;
+    font-weight: 500;
+}
