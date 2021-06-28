@@ -17,7 +17,6 @@
   <div class="container__half container--slider">
     
  <div class="swiper-container" id="arrows">
- <!--Additional required wrapper -->
     <div class="swiper-wrapper">
    <!--Slides-->
   <div class="swiper-slide">
@@ -45,13 +44,10 @@
     <div class="swiper-slide__img" style="background: url('img/pexels-photo-318446-1440.png') ;"></div>
   </div>
 </div>
-<!-- If we need pagination -->
 
-<!-- If we need navigation buttons -->
 <div id="prev__button" class="swiper-button-prev"></div>
 <div id="next__button" class="swiper-button-next"></div>
 
-<!-- If we need scrollbar -->
   </div>
 </div>
 <div id="product--info" class="container__half container--product-info background__gradient">
@@ -142,26 +138,15 @@
 </body>
 <script>
   const swiper = new Swiper('.swiper-container', {
-    // Optional parameters
     direction: 'horizontal',
     loop: true,
     effect: 'fade',
     preloadImages: false,
     autoHeight: true,
-    
-  
-    // If we need pagination
-  
-  
-    // Navigation arrows
+
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
-    },
-  
-    // And if we need scrollbar
-    scrollbar: {
-      el: '.swiper-scrollbar',
     },
   });
 </script>
