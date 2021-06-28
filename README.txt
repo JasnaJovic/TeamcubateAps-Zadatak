@@ -1,5 +1,5 @@
 # Task 
-In case I misunderstood the task in any way, and you want me to code it as a regular shopify section, 
+In case I misunderstood the task in any way, and you want me to code it as a regular Shopify section, 
 please let me know, and I will quickly transform it and send you the store url. 
 ( Whether the transfer hours will count in overall task completion time or not, it's up to you. 
 I will let you know how much time I needed, but I won't log it )
